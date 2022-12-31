@@ -40,8 +40,16 @@ FROM oyopart11;
 
 # export the result table and save as ( table 2 )
 
-# remove numeric values from the 
+# remove numeric values from the hotel column
 
+UPDATE oyopart111 SET HOTEL = TRIM(REGEX_REPLACE(HOTEL, '[0-9]+', ''));
+
+SELECT 
+    *
+FROM
+    oyopart111;
+
+# CLEANING COMPLETE
 
 
 
