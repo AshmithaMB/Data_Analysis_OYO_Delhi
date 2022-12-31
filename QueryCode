@@ -3,16 +3,27 @@
 
 SELECT REGION,COUNT(DISTINCT(REGION))
 FROM OYOD;
+
 # Delhi 
 
 
 # QUERY 2
-# List all categories of oyo hotels based on their availability
+# How many OYO Rooms are there in total?
 
-SELECT COUNT(AVAILABILITY), HOTEL
+SELECT COUNT(*), HOTEL
+FROM oyopart111
+WHERE HOTEL = 'OYO Rooms';
+
+# There are 221 OYO Rooms in total
+
+
+# QUERY 3
+# List all categories of oyo hotels & their count
+
+SELECT COUNT(HOTEL), HOTEL
 FROM oyopart111
 GROUP BY HOTEL
-ORDER BY COUNT(AVAILABILITY) ASC;
+ORDER BY COUNT(HOTEL) ASC;
 
 # 1 - Elite
 # 4 - Apartment
@@ -22,7 +33,7 @@ ORDER BY COUNT(AVAILABILITY) ASC;
 # 221 - Rooms
 
 
-# QUERY 3
+# QUERY 4
 # List all categories of oyo hotels which are available
 
 SELECT COUNT(AVAILABILITY), HOTEL
@@ -38,7 +49,7 @@ ORDER BY COUNT(AVAILABILITY) ASC;
 # 75 - Rooms
  
  
-# QUERY 4
+# QUERY 5
 # List hotel categories based on their non-availability in distinct localities
 
 SELECT COUNT(AVAILABILITY), HOTEL, LOCALITY
@@ -50,7 +61,91 @@ ORDER BY COUNT(`AVAILABILITY`) DESC;
 # Highest unavailable OYO Rooms are located in Karol Bagh
 
 
-# QUERY 5
+# QUERY 6
+# List maximum & minimum discounted rates and their oyo categories
+
+SELECT MIN(`DISCOUNTED RATE`),MAX(`DISCOUNTED RATE`), HOTEL 
+FROM OYOPART111;
+
+# minimum discounted rate is 562 & the maximum is 5137 
+# and both belong to OYO premium category of oyo hotels
+
+
+# QUERY 7
+# List average discounted rates of all the hotel categories
+
+SELECT ROUND(AVG(`DISCOUNTED RATE`), 2), HOTEL 
+FROM OYOPART111
+GROUP BY HOTEL;
+
+# Highest average discounted rate is of OYO Elite category 4,237
+# Lowest average dicounted rate is of OYO apartment category 1,405
+
+
+# QUERY 8
+# How many OYO Rooms are there in total?
+
+SELECT COUNT(*), HOTEL
+FROM oyopart111
+WHERE HOTEL = 'OYO Rooms';
+
+# There are 221 OYO Rooms in total
+
+
+# QUERY 9
+# List all the hotel categories where the price before discount is above 2000 
+# and after discount is below 2000
+# and the category atleast has more than 10 properties
+
+SELECT COUNT(HOTEL), HOTEL, `BEFORE DISCOUNT`, `DISCOUNTED RATE`
+FROM oyopart111
+WHERE `BEFORE DISCOUNT` > 2000 AND `DISCOUNTED RATE` < 2000
+GROUP BY HOTEL
+HAVING COUNT(HOTEL) > 10;
+
+# 11	OYO Premium	had price at 2649 before being discounted to	1987
+# 58	OYO Rooms had price at	2499	before being discounted to 1874
+# 11	OYO Homes had price at	before being discounted to 2499	1874
+
+# QUERY 1O
+# How many of OYO properties irrespective of their categories in delhi are available
+
+SELECT SUM(AVAILABILITY)
+FROM oyopart111;
+
+# 105 are available and the rest are sold out
+
+
+# QUERY 11
+# List those properties which have a price range between 4000 to 6000 but are sold out
+# and are displayed in an order from minimum to maximum
+
+SELECT *
+FROM oyopart111
+WHERE `DISCOUNTED RATE` BETWEEN 4000 AND 6000
+HAVING `AVAILABILITY` = 0
+ORDER BY (`DISCOUNTED RATE`)ASC;
+
+
+# QUERY 12
+# Display the records where there is no discount 
+
+SELECT * 
+FROM OYOPART111
+WHERE DISCOUNT = 0;
+
+# OYO Premium	in Bhama Shah Marg, Delhi	has	no discount
+
+
+# QUERY 13
+# Check for null values in the locality column
+
+SELECT * 
+FROM OYOPART111
+WHERE LOCALITY IS NULL;
+
+# There are no null values in locality column
+
+
+# QUERY 15
 # 
-
-
