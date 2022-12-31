@@ -73,6 +73,7 @@ FROM OYOPART111;
 
 # QUERY 7
 # List average discounted rates of all the hotel categories
+# to two decimal digits
 
 SELECT ROUND(AVG(`DISCOUNTED RATE`), 2), HOTEL 
 FROM OYOPART111
@@ -83,13 +84,12 @@ GROUP BY HOTEL;
 
 
 # QUERY 8
-# How many OYO Rooms are there in total?
+# How many properties irrespective to their category are there in total?
 
 SELECT COUNT(*), HOTEL
-FROM oyopart111
-WHERE HOTEL = 'OYO Rooms';
+FROM oyopart111;
 
-# There are 221 OYO Rooms in total
+# There are 331 OYO Rooms in total
 
 
 # QUERY 9
@@ -108,7 +108,7 @@ HAVING COUNT(HOTEL) > 10;
 # 11	OYO Homes had price at	before being discounted to 2499	1874
 
 # QUERY 1O
-# How many of OYO properties irrespective of their categories in delhi are available
+# How many of OYO properties irrespective of their categories in delhi are available?
 
 SELECT SUM(AVAILABILITY)
 FROM oyopart111;
@@ -148,4 +148,57 @@ WHERE LOCALITY IS NULL;
 
 
 # QUERY 15
+# How many OYO Rooms are priced under 1000 and are available?
+
+SELECT * 
+FROM OYOPART111
+WHERE HOTEL = "OYO Rooms" AND `DISCOUNTED RATE` < 1000
+HAVING AVAILABILITY = 1
+ORDER BY (`DISCOUNTED RATE`) ASC;
+
+# QUERY 16
+# List the unique discount rates applied before discounting the price
+
+SELECT DISTINCT DISCOUNT
+FROM OYOPART111;
+
+# 25% discount ate is applied for all the records except one record which had 0%/ no discount
+
+# QUERY 17 
+# Name the location of the categories of OYO hotels are priced very high and are readily available?
+
+SELECT *
+FROM oyopart111
+WHERE `DISCOUNTED RATE` BETWEEN 4500 AND 5000
+GROUP BY HOTEL
+HAVING AVAILABILITY = 1
+ORDER BY (`DISCOUNTED RATE`) DESC;
+
+# OYO Premium in SunderNagar, Delhi is priced at 4,574 and is readily available
+
+
+# Query 18
+# How many distinct localities in Delhi hold one or more OYOs?
+
+SELECT COUNT( DISTINCT (LOCALITY))
+FROM OYOPART111;
+
+# 229
+
+
+# QUERY 19
+# Before discount, which category had the highest price & lowest price?
+
+SELECT MAX(`BEFORE DISCOUNT`), HOTEL
+FROM OYOPART111
+GROUP BY HOTEL;
+
+SELECT MIX(`BEFORE DISCOUNT`), HOTEL
+FROM OYOPART111
+GROUP BY HOTEL;
+
+# Highest price - OYO Premium - 6849
+# Lowest price - OYO Rooms - 749
+
+# QUERY 20
 # 
