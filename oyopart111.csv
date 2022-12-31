@@ -1,0 +1,332 @@
+SNO,HOTEL,LOCALITY,REGION,AVAILABILITY,DISCOUNT,"DISCOUNTED RATE","BEFORE DISCOUNT"
+0,"OYO Premium","Pocket-2, Jasola",Delhi,1,25,1987,2649
+1,"OYO Flagship","E Block,GK2",Delhi,1,25,2362,3149
+2,"OYO Flagship","Arakashan Road, Paharganj",Delhi,1,25,1349,1799
+3,"OYO Flagship","A Block,Mahipalpur Extension",Delhi,1,25,1499,1999
+4,"OYO Premium","CV Raman Marg",Delhi,1,25,2924,3899
+5,"OYO Rooms","E Block, East Of Kailash",Delhi,1,25,1349,1799
+6,"OYO Premium","Sunder Nagar",Delhi,1,25,4574,6099
+7,"OYO Rooms",Kalkaji,Delhi,1,25,1349,1799
+8,"OYO Rooms","Road 1, Mahipalpur",Delhi,1,25,1248,1664
+9,"OYO Premium","East Patel Nagar",Delhi,1,25,3637,4849
+10,"OYO Rooms","Karol Bagh, New Delhi",Delhi,1,25,1274,1699
+11,"OYO Rooms","Road No 1, Mahipalpur",Delhi,1,25,1248,1664
+12,"OYO Homes","Second Floor (With Elevator), New Friends Colony ",Delhi,1,25,2774,3699
+13,"OYO Premium","CV Raman Marg",Delhi,1,25,2362,3149
+14,"OYO Premium",Saket,Delhi,1,25,3224,4299
+15,"OYO Rooms","National Highway No. 8, Mahipalpur",Delhi,1,25,2849,3799
+16,"OYO Rooms","Connaught Circus",Delhi,1,25,3487,4649
+17,"OYO Rooms","East Patel Nagar",Delhi,1,25,1874,2499
+18,"OYO Rooms","National Highway 8, Near IGI Domestic Airport, Mahipalpur",Delhi,1,25,2812,3749
+19,"OYO Rooms","Mahipalpur Extn, Near Airport, National Highway -8",Delhi,1,25,2437,3249
+20,"OYO Premium","Anand Lok",Delhi,1,25,3562,4749
+21,"OYO Rooms","Vasant vihar",Delhi,1,25,2662,3549
+22,"OYO Rooms","Adarsh Nagar",Delhi,1,25,1874,2499
+23,"OYO Rooms","N.H. 8, Near IGI Airport Road No. 1, Mahipalpur Extension , Mahipalpur",Delhi,1,25,2587,3449
+24,"OYO Premium","Greater Kailash 1",Delhi,1,25,3599,4799
+25,"OYO Homes",Kingsaway,Delhi,1,25,1874,2499
+26,"OYO Rooms","Jasola Vihar",Delhi,1,25,2624,3499
+27,"OYO Premium","Lajpat Nagar 4",Delhi,1,25,3224,4299
+28,"OYO Rooms","Outer Ring Road",Delhi,1,25,2174,2899
+29,"OYO Rooms","Opposite Karnataka Bank, Kalkaji",Delhi,1,25,1612,2149
+30,"OYO Apartment",Dwarka,Delhi,1,25,1649,2199
+31,"OYO Rooms","Desh Bandhu Gupta Road",Delhi,1,25,1387,1849
+32,"OYO Rooms","East Patel Nagar",Delhi,1,25,1912,2549
+33,"OYO Rooms","Bhera Enclave",Delhi,1,25,1837,2449
+34,"OYO Rooms","Kirti Nagar",Delhi,1,25,1537,2049
+35,"OYO Rooms","Near Bank of Baroda",Delhi,1,25,1537,2049
+36,"OYO Rooms","Jamia Nagar, Okhla",Delhi,1,25,1874,2499
+37,"OYO Rooms","60 Feet Road, Pul Pehlad Pur",Delhi,1,25,1274,1699
+38,"OYO Premium","Defence Colony",Delhi,1,25,2324,3099
+39,"OYO Rooms","Arakashan Road",Delhi,1,25,1499,1999
+40,"OYO Rooms","National Highway, NH8",Delhi,1,25,1687,2249
+41,"OYO Rooms","Kapashera Extension, Bijwasan Road",Delhi,1,25,1874,2499
+42,"OYO Rooms","Old Rajendra Nagar",Delhi,1,25,1987,2649
+43,"OYO Rooms","Panchsheel Park South",Delhi,1,25,1424,1899
+44,"OYO Rooms","Dariba Pan",Delhi,1,25,899,1199
+45,"OYO Rooms","Greater Kailash Part 1",Delhi,1,25,2662,3549
+46,"OYO Rooms","Kailash Colony",Delhi,1,25,2062,2749
+47,"OYO Rooms","Opp Sapna Cinema",Delhi,1,25,1912,2549
+48,"OYO Rooms","Near Prem Motor Showroom, Adjoining Vasantkunj Road",Delhi,1,25,1199,1599
+49,"OYO Rooms","Near New Delhi Railway Station",Delhi,1,25,937,1249
+50,"OYO Rooms","Channa Market, Karol Bagh",Delhi,1,25,1799,2399
+51,"OYO Premium","Kalindi Kunj Road",Delhi,1,25,2437,3249
+52,"OYO Rooms",Jangpura,Delhi,1,25,2699,3599
+53,"OYO Rooms","Chittaranjan Park",Delhi,1,25,2062,2749
+54,"OYO Rooms",NH8,Delhi,1,25,1949,2599
+55,"OYO Rooms","Near Nehru Place",Delhi,1,25,2699,3599
+56,"OYO Rooms","Dwarka Sector 23",Delhi,1,25,1537,2049
+57,"OYO Rooms","Near R.K. Ashram Metro Station",Delhi,1,25,1462,1949
+58,"OYO Rooms","Rajguru Road, Chuna Mandi",Delhi,1,25,862,1149
+59,"OYO Rooms","Behind Prem Maruti Showroom, Mahipalpur",Delhi,1,25,1312,1749
+60,"OYO Rooms","Sector 7, Near Shree Makhan Sweet, Ramphal Chowk",Delhi,1,25,1387,1849
+61,"OYO Premium","Pocket-2, Jasola",Delhi,1,25,2024,2699
+62,"OYO Premium","Rajouri Garden",Delhi,1,25,2399,3199
+63,"OYO Rooms","Street No.7, Near IGI Airport, Mahipalpur",Delhi,1,25,2024,2699
+64,"OYO Premium","East of Kailash",Delhi,1,25,2849,3799
+65,"OYO Rooms","Nehru Enclave",Delhi,1,25,2474,3299
+66,"OYO Rooms","Darya Ganj",Delhi,1,25,1874,2499
+67,"OYO Premium",Paharganj,Delhi,1,25,1762,2349
+68,"OYO Rooms","East Patel Nagar",Delhi,1,25,1724,2299
+69,"OYO Rooms","Main Mahiveer Enclave in front of Sulabh International Dabri Palam Road",Delhi,1,25,1387,1849
+70,"OYO Rooms","D.B. Gupta Road, Paharganj",Delhi,1,25,1349,1799
+71,"OYO Rooms",Paharganj,Delhi,1,25,1012,1349
+72,"OYO Rooms",Paharganj,Delhi,1,25,1087,1449
+73,"OYO Rooms","Pahar Ganj",Delhi,1,25,1124,1499
+74,"OYO Premium","Greater Kailash 1",Delhi,1,25,3487,4649
+75,"OYO Rooms","Karol Bagh",Delhi,1,25,1237,1649
+76,"OYO Rooms",Jasola,Delhi,1,25,1237,1649
+77,"OYO Premium","Malviya Nagar",Delhi,1,25,2999,3999
+78,"OYO Homes","Jangpura Extension",Delhi,1,25,1274,1699
+79,"OYO Apartment","Palam Extension, Sector 7, Near Gold's Gym",Delhi,1,25,1424,1899
+80,"OYO Rooms","Jamia Nagar",Delhi,1,25,1049,1399
+81,"OYO Premium","Ring Road",Delhi,1,25,3149,4199
+82,"OYO Homes","Road no 44",Delhi,1,25,1612,2149
+83,"OYO Premium","Safdarjung Enclave",Delhi,1,25,2737,3649
+84,"OYO Rooms","Near Imperial Cinema",Delhi,1,25,937,1249
+85,"OYO Rooms",Paharganj,Delhi,1,25,1087,1449
+86,"OYO Homes","South Extension - 1",Delhi,1,25,1687,2249
+87,"OYO Rooms",Saket,Delhi,1,25,2587,3449
+88,"OYO Rooms","Pankha Road,Dabri Mor",Delhi,1,25,2174,2899
+89,"OYO Rooms",Karolbagh,Delhi,1,25,1199,1599
+90,"OYO Rooms","Near Nirman Vihar Metro Station",Delhi,1,25,1837,2449
+91,"OYO Rooms",Paharganj,Delhi,1,25,937,1249
+92,"OYO Rooms","Karol Bagh",Delhi,1,25,1574,2099
+93,"OYO Premium","Street No.1, Multani Dhanda, Paharganj",Delhi,1,25,1462,1949
+94,"OYO Rooms",Jasola,Delhi,1,25,1124,1499
+95,"OYO Rooms",Kapashera,Delhi,1,25,1724,2299
+96,"OYO Rooms","Main Bazar, 6 Tooti Chowk",Delhi,1,25,974,1299
+97,"OYO Rooms","Ram Nagar, Street No.1",Delhi,1,25,1199,1599
+98,"OYO Rooms","Karol Bagh",Delhi,1,25,1274,1699
+99,"OYO Rooms","Ram Nagar",Delhi,1,25,1087,1449
+100,"OYO Rooms","Ram Nagar",Delhi,1,25,1087,1449
+101,"OYO Rooms","Arya Samaj Road, Opposite Satbhrawan School",Delhi,1,25,1012,1349
+102,"OYO Rooms",Paharganj,Delhi,1,25,1199,1599
+103,"OYO Rooms","Near Gate No 1, Opposite Sheila Cinema",Delhi,1,25,1387,1849
+104,"OYO Rooms","Saran Building, Gali No. 3",Delhi,1,25,1199,1599
+105,"OYO Flagship","B Block, Safdarjung Enclave",Delhi,0,25,3787,5049
+106,"OYO Flagship","Plot no. A-44, A Block, New Friends Colony, Delhi",Delhi,0,25,2924,3899
+107,"OYO Flagship","Plot no. E-301, E Block, East of Kailash, Delhi",Delhi,0,25,2774,3699
+108,"OYO Flagship","B Block, Safdurjung Enclave",Delhi,0,25,2587,3449
+109,"OYO Flagship","Arakashan Road, Paharganj",Delhi,0,25,1349,1799
+110,"OYO Premium","Phase 2, Ashok Vihar, New Delhi",Delhi,0,25,4574,6099
+111,"OYO Rooms","Hauz Khas Village",Delhi,0,25,3749,4999
+112,"OYO Rooms","New Friends Colony",Delhi,0,25,2887,3849
+113,"OYO Rooms","Phase 2, Ashok Vihar",Delhi,0,25,1762,2349
+114,"OYO Premium","S Block, Panchsheel Park",Delhi,0,25,2512,3349
+115,"OYO Premium",Kapashera,Delhi,0,25,4349,5799
+116,"OYO Rooms",SFE,Delhi,0,25,2474,3299
+117,"OYO Rooms","Arakashan Road,Pahargankj",Delhi,0,25,1537,2049
+118,"OYO Rooms","Desh Bandhu Gupta Road, Beadonpura, Karol Bagh",Delhi,0,25,1537,2049
+119,"OYO Flagship","Next to Baptist Church,D.B Gupta Road, Near Police Station, Karol Bagh",Delhi,0,25,2512,3349
+120,"OYO Flagship","Next to Baptist Church,D.B Gupta Road, Near Police Station, Karol Bagh",Delhi,0,25,2512,3349
+121,"OYO Rooms","B Block, Safdurjung Enclave",Delhi,0,25,2587,3449
+122,"OYO Rooms",SDA,Delhi,0,25,2437,3249
+123,"OYO Rooms","Rajdhani Enclave,Pitampura",Delhi,0,25,2474,3299
+124,"OYO Rooms","Saraswati Vihar, Pitampura",Delhi,0,25,2362,3149
+125,"OYO Rooms","Paschim Enclave, Nh-10",Delhi,0,25,2249,2999
+126,"OYO Rooms","E Block,Greater Kailash II",Delhi,0,25,2062,2749
+127,"OYO Rooms","C Block, South Extension 1",Delhi,0,25,1799,2399
+128,"OYO Premium","Ground Floor, Greater Kailash II, Road No. 10, Near M Block Market",Delhi,0,25,2062,2749
+129,"OYO Rooms","Karol Bagh, New Delhi",Delhi,0,25,1274,1699
+130,"OYO Premium","Greater Kailash",Delhi,0,25,5137,6849
+131,"OYO Rooms","Karol Bagh",Delhi,0,25,1499,1999
+132,"OYO Rooms","Kirti Nagar",Delhi,0,25,1162,1549
+133,"OYO Premium","A Block, Mahipalpur Extension, NH8, New",Delhi,0,25,2662,3549
+134,"OYO Rooms",Paharganj,Delhi,0,25,824,1099
+135,"OYO Homes","Friends Colony East",Delhi,0,25,2999,3999
+136,"OYO Premium","Khasara No.395, Vasant Kunj Road, Mahipalpur",Delhi,0,25,2474,3299
+137,"OYO Rooms","National Highway No. 8, Mahipalpur",Delhi,0,25,2812,3749
+138,"OYO Rooms","Opposite Parmarth Hospital, Above Allahabad Bank",Delhi,0,25,1912,2549
+139,"OYO Rooms","Sector 13, Dwarka",Delhi,0,25,2887,3849
+140,"OYO Rooms","Mahipalpur Extn, Near Airport, National Highway -8",Delhi,0,25,2437,3249
+141,"OYO Rooms","NH 8, Near IGI Airport Road No. 1, Mahipalpur Extension",Delhi,0,25,2812,3749
+142,"OYO Rooms","Greater Kailash 1",Delhi,0,25,3824,5099
+143,"OYO Rooms","Dakshini Pitampura",Delhi,0,25,2624,3499
+144,"OYO Rooms","New Friends Colony",Delhi,0,25,2212,2949
+145,"OYO Premium","Outer Ring Road, Meera Bagh",Delhi,0,25,2962,3949
+146,"OYO Premium","Greater Kailash 1",Delhi,0,25,3562,4749
+147,"OYO Rooms","Maharani Bagh",Delhi,0,25,1724,2299
+148,"OYO Rooms","Main Market",Delhi,0,25,2549,3399
+149,"OYO Premium","Opposite Kapashera Police Station Kapashera",Delhi,0,25,2512,3349
+150,"OYO Rooms","Opposite J Block Market, Saket",Delhi,0,25,2624,3499
+151,"OYO Rooms","Opposite Indra Gandhi International Airport, Mahipalpur Extension, NH-8",Delhi,0,25,1424,1899
+152,"OYO Rooms","Mahipalpur, NH-8, Near IGI Airport",Delhi,0,25,2549,3399
+153,"OYO Premium","Metro Pillar No. 162",Delhi,0,25,3374,4499
+154,"OYO Rooms","A Block, N.H.8, Mahipalpur New",Delhi,0,25,2399,3199
+155,"OYO Rooms",Dwarka,Delhi,0,25,2549,3399
+156,"OYO Premium","Greater Kailash -1",Delhi,0,25,3374,4499
+157,"OYO Rooms","Chandan Hola",Delhi,0,25,3037,4049
+158,"OYO Rooms",Paharganj,Delhi,0,25,1012,1349
+159,"OYO Rooms",Kirokli,Delhi,0,25,1987,2649
+160,"OYO Rooms","West Patel Nagar",Delhi,0,25,1799,2399
+161,"OYO Rooms","Next to Hotel Radisson, Near IGI Airport, Rangpuri",Delhi,0,25,1949,2599
+162,"OYO Rooms","Near Metro Pillar No.161",Delhi,0,25,1837,2449
+163,"OYO Premium","Aruna Asaf Ali Marg",Delhi,0,25,3149,4199
+164,"OYO Rooms","CV Raman Marg",Delhi,0,25,1687,2249
+165,"OYO Rooms","Rao Tula Ram Marg",Delhi,0,25,2324,3099
+166,"OYO Homes","Greater Kailash 1",Delhi,0,25,2549,3399
+167,"OYO Elite","Panchshila Park",Delhi,0,25,4237,5649
+168,"OYO Rooms","New Friends colony",Delhi,0,25,2887,3849
+169,"OYO Rooms","Vasant Kunj",Delhi,0,25,1574,2099
+170,"OYO Rooms","Sector 10 Dwarka, In front of metro station",Delhi,0,25,2699,3599
+171,"OYO Homes",Saket,Delhi,0,25,2549,3399
+172,"OYO Premium","Dwarka Palam Road",Delhi,0,25,1912,2549
+173,"OYO Rooms","Rohtak Road",Delhi,0,25,2287,3049
+174,"OYO Rooms","Greater Kailash 1",Delhi,0,25,2699,3599
+175,"OYO Rooms",Vikaspuri,Delhi,0,25,1649,2199
+176,"OYO Homes","Jangpura Extension",Delhi,0,25,2287,3049
+177,"OYO Rooms","East Patel Nagar",Delhi,0,25,1724,2299
+178,"OYO Rooms","East Patel nagar",Delhi,0,25,1612,2149
+179,"OYO Rooms","Vikas Puri",Delhi,0,25,1912,2549
+180,"OYO Premium",Jasola,Delhi,0,25,3712,4949
+181,"OYO Apartment",Dwarka,Delhi,0,25,1649,2199
+182,"OYO Premium","Hari Nagar",Delhi,0,25,2549,3399
+183,"OYO Rooms",Dwarka,Delhi,0,25,1237,1649
+184,"OYO Homes","Rani Bagh",Delhi,0,25,1349,1799
+185,"OYO Rooms","Road no 2, Mahipalpur",Delhi,0,25,1237,1649
+186,"OYO Premium",Dwarka,Delhi,0,25,2849,3799
+187,"OYO Homes","Janak Puri",Delhi,0,25,1237,1649
+188,"OYO Premium",Jasola,Delhi,0,25,1724,2299
+189,"OYO Rooms","Karol Bagh",Delhi,0,25,1537,2049
+190,"OYO Rooms","Saraswati Marg",Delhi,0,25,1274,1699
+191,"OYO Homes","Shanti Kunj",Delhi,0,25,1349,1799
+192,"OYO Premium","Connaught Circus",Delhi,0,25,4499,5999
+193,"OYO Rooms","Karol Bagh",Delhi,0,25,1199,1599
+194,"OYO Rooms","East Patel Nagar",Delhi,0,25,1724,2299
+195,"OYO Rooms","Karol Bagh",Delhi,0,25,1537,2049
+196,"OYO Rooms","Karol Bagh",Delhi,0,25,1199,1599
+197,"OYO Premium","Rajouri Garden",Delhi,0,25,2849,3799
+198,"OYO Rooms","Karol Bagh",Delhi,0,25,1537,2049
+199,"OYO Rooms","Near Nehru Place",Delhi,0,25,3149,4199
+200,"OYO Rooms","Ram Nagar",Delhi,0,25,1349,1799
+201,"OYO Premium","Near Green Park Metro",Delhi,0,25,2249,2999
+202,"OYO Rooms","Safdarjung Enclave",Delhi,0,25,2249,2999
+203,"OYO Rooms","Opposite DPS School Gate No. 1",Delhi,0,25,1949,2599
+204,"OYO Rooms","Near New Delhi Railway Station, Paharganj",Delhi,0,25,974,1299
+205,"OYO Premium",Dwarka,Delhi,0,25,2812,3749
+206,"OYO Rooms","Karol Bagh",Delhi,0,25,1049,1399
+207,"OYO Rooms","Kailash Colony",Delhi,0,25,2062,2749
+208,"OYO Rooms","Karol Bagh",Delhi,0,25,899,1199
+209,"OYO Rooms","WEA, Karol Bag, Near RBL Bank",Delhi,0,25,1012,1349
+210,"OYO Premium","New Rajinder Nagar",Delhi,0,25,2512,3349
+211,"OYO Rooms","Near Kirti Nagar Police Station",Delhi,0,25,1462,1949
+212,"OYO Rooms","Main Bazaar, Main Bazar Road, Paharganj",Delhi,0,25,824,1099
+213,"OYO Premium","Near Karkardooma Metro Station",Delhi,0,25,2662,3549
+214,"OYO Rooms","Karol Bagh",Delhi,0,25,1687,2249
+215,"OYO Rooms","Karol Bagh",Delhi,0,25,1274,1699
+216,"OYO Rooms","Karol Bagh",Delhi,0,25,1799,2399
+217,"OYO Premium","Near Kohat Enclave Metro Station, Opposite Metro Pillar No. 332",Delhi,0,25,3824,5099
+218,"OYO Rooms","Kaseru Walan, Paharganj",Delhi,0,25,937,1249
+219,"OYO Homes","Maidan Garhi Road,Chattarpur",Delhi,0,25,1199,1599
+220,"OYO Rooms","Karol Bagh",Delhi,0,25,1199,1599
+221,"OYO Rooms","Karol Bagh",Delhi,0,25,1349,1799
+222,"OYO Rooms","Karol Bagh",Delhi,0,25,937,1249
+223,"OYO Rooms","Ramphal Chowk, Dwarka",Delhi,0,25,1462,1949
+224,"OYO Rooms","Saiyad ul Ajaib",Delhi,0,25,1574,2099
+225,"OYO Premium",Barakhamba,Delhi,0,25,4612,6149
+226,"OYO Rooms","Kaseru Walan, Paharganj",Delhi,0,25,1012,1349
+227,"OYO Homes",Saket,Delhi,0,25,1087,1449
+228,"OYO Premium","Naraina Vihar",Delhi,0,25,2849,3799
+229,"OYO Premium","Paschim Vihar",Delhi,0,25,2662,3549
+230,"OYO Homes",Kalkaji,Delhi,0,25,1574,2099
+231,"OYO Premium","Nehru Place",Delhi,0,25,3299,4399
+232,"OYO Rooms",Paharganj,Delhi,0,25,1124,1499
+233,"OYO Apartment","Near Malkhan Singh Marg, Street no.16",Delhi,0,25,899,1199
+234,"OYO Rooms",Kalkaji,Delhi,0,25,1424,1899
+235,"OYO Premium","Mahipalpur, NH -8, Near IGI Airport, Delhi Gurgaon Expy, Block RZ, Mahipalpur Village",Delhi,0,25,2774,3699
+236,"OYO Rooms","Rohtak Road, Karol Bagh",Delhi,0,25,1087,1449
+237,"OYO Rooms","Kapashera Road, Bijwasan",Delhi,0,25,1649,2199
+238,"OYO Rooms",Paharganj,Delhi,0,25,1012,1349
+239,"OYO Premium","Greater Kailash Part - 1",Delhi,0,25,2962,3949
+240,"OYO Rooms","Karol Bagh",Delhi,0,25,1537,2049
+241,"OYO Rooms","Karol Bagh, New Delhi",Delhi,0,25,1087,1449
+242,"OYO Premium","CHUNA MANDI",Delhi,0,25,1762,2349
+243,"OYO Rooms",Sector-7,Delhi,0,25,1424,1899
+244,"OYO Rooms","Hazrat Nizamuddin West",Delhi,0,25,2249,2999
+245,"OYO Rooms","Sector 7, Near Shree Makhan Sweet, Ramphal Chowk",Delhi,0,25,1387,1849
+246,"OYO Rooms","Arakshan Road",Delhi,0,25,562,749
+247,"OYO Rooms","DB Gupta Road, Pahar Ganj Bridge",Delhi,0,25,1012,1349
+248,"OYO Rooms","Defence colony",Delhi,0,25,1912,2549
+249,"OYO Rooms","Ramphal Chowk, Sector 7 Dwarka",Delhi,0,25,1237,1649
+250,"OYO Rooms","Karol Bagh",Delhi,0,25,974,1299
+251,"OYO Rooms","Karol Bagh",Delhi,0,25,1162,1549
+252,"OYO Rooms","1B, Arakashan Road",Delhi,0,25,1124,1499
+253,"OYO Rooms","Opposite New Delhi Railway Station, Paharganj",Delhi,0,25,824,1099
+254,"OYO Rooms","Lajpat Nagar",Delhi,0,25,2587,3449
+255,"OYO Rooms","Road No.-6, Mahipalpur, Road No 6",Delhi,0,25,1049,1399
+256,"OYO Homes",Dwarka,Delhi,0,25,1499,1999
+257,"OYO Premium","Green Park",Delhi,0,25,2849,3799
+258,"OYO Rooms","Kalkji Main Road",Delhi,0,25,2099,2799
+259,"OYO Rooms","Main Road Naharpur Village",Delhi,0,25,1987,2649
+260,"OYO Homes","Next To Primary School, Satbari Chattarpur",Delhi,0,25,1612,2149
+261,"OYO Premium","Karol Bagh",Delhi,0,25,2062,2749
+262,"OYO Homes","New Delhi",Delhi,0,25,1987,2649
+263,"OYO Premium","Sadiq Nagar",Delhi,0,25,3074,4099
+264,"OYO Rooms","Gurudwara Road, Karol Bagh",Delhi,0,25,1387,1849
+265,"OYO Rooms","Opp. Shiela Cinema",Delhi,0,25,824,1099
+266,"OYO Homes","Greater Kailash II",Delhi,0,25,2249,2999
+267,"OYO Rooms","Masoodpur Vasant Kunj",Delhi,0,25,1799,2399
+268,"OYO Rooms","Masjid Road, Jangpura Bhogal",Delhi,0,25,1312,1749
+269,"OYO Premium","Karol Bagh",Delhi,0,25,1387,1849
+270,"OYO Rooms","Karol Bagh, New Delhi",Delhi,0,25,1124,1499
+271,"OYO Rooms","Road No 6, Mahipalpur, Mahipalpur, International Airport Zone",Delhi,0,25,1462,1949
+272,"OYO Rooms",Jasola,Delhi,0,25,1237,1649
+273,"OYO Rooms","Main Bazar, Paharganj",Delhi,0,25,1049,1399
+274,"OYO Rooms","D.B. Gupta Road",Delhi,0,25,1162,1549
+275,"OYO Rooms","Vasant Kunj",Delhi,0,25,1537,2049
+276,"OYO Premium","Pahar Ganj",Delhi,0,25,1837,2449
+277,"OYO Rooms","Connaught Place",Delhi,0,25,3337,4449
+278,"OYO Rooms","CR Park",Delhi,0,25,1424,1899
+279,"OYO Homes","Near Aurobindo College",Delhi,0,25,1762,2349
+280,"OYO Rooms","Pahar Ganj",Delhi,0,25,1012,1349
+281,"OYO Rooms","Kamla Nagar",Delhi,0,25,1574,2099
+282,"OYO Rooms","Channa Market",Delhi,0,25,1424,1899
+283,"OYO Rooms","Krishna Gali, Ghee Mandi, Near New Delhi Railway Station Paharganj",Delhi,0,25,974,1299
+284,"OYO Rooms",Pitampura,Delhi,0,25,2399,3199
+285,"OYO Premium","Karol Bagh",Delhi,0,25,1499,1999
+286,"OYO Rooms","M Block, Kalkaji",Delhi,0,25,1949,2599
+287,"OYO Homes","Arjun Nagar",Delhi,0,25,1499,1999
+288,"OYO Rooms","Opposite AIIMS Trauma Centre",Delhi,0,25,2099,2799
+289,"OYO Premium","NH8, Mahipalpur",Delhi,0,25,2474,3299
+290,"OYO Rooms","W.E.A, Channa Market, Karol Bagh",Delhi,0,25,1162,1549
+291,"OYO Premium","Opposite Happy School, Daryaganj",Delhi,0,25,1799,2399
+292,"OYO Rooms","Jangpura B",Delhi,0,25,1274,1699
+293,"OYO Homes","Opposite Savitri Market",Delhi,0,25,1574,2099
+294,"OYO Premium","Near By Karol Bagh Police Station / HDFC bank",Delhi,0,25,1537,2049
+295,"OYO Rooms","Arakashan Road",Delhi,0,25,1049,1399
+296,"OYO Homes","Greater Kailash-1, New Delhi",Delhi,0,25,1837,2449
+297,"OYO Rooms","Karol Bagh",Delhi,0,25,1012,1349
+298,"OYO Premium","Aditya Enclave, Dwarka",Delhi,0,25,1537,2049
+299,"OYO Rooms","Church Road, Jungpura, Bhogal",Delhi,0,25,974,1299
+300,"OYO Rooms","Greater Kailash-2",Delhi,0,25,1499,1999
+301,"OYO Rooms","East of Kailash",Delhi,0,25,1912,2549
+302,"OYO Rooms","Rajouri Garden",Delhi,0,25,2099,2799
+303,"OYO Premium",Alipur,Delhi,0,25,2699,3599
+304,"OYO Rooms","Gali Hari Mandir",Delhi,0,25,899,1199
+305,"OYO Rooms","Saraswati Marg, West Extension Area, Karol Bagh",Delhi,0,25,1349,1799
+306,"OYO Homes","South Extension 1",Delhi,0,25,1724,2299
+307,"OYO Premium","Gurudwara Road, Opposite Jessa Ram Hospital",Delhi,0,25,3112,4149
+308,"OYO Rooms","Arakashan Road, Paharganj",Delhi,0,25,1199,1599
+309,"OYO Rooms",Dwarka,Delhi,0,25,1762,2349
+310,"OYO Premium","Green Park Main",Delhi,0,25,2774,3699
+311,"OYO Rooms","D.B. Gupta Road, Karol Bagh",Delhi,0,25,1049,1399
+312,"OYO Rooms",Pitampura,Delhi,0,25,1874,2499
+313,"OYO Rooms","Karol Bagh",Delhi,0,25,1049,1399
+314,"OYO Premium","Naraina Vihar",Delhi,0,25,2399,3199
+315,"OYO Rooms","Hauz Khas",Delhi,0,25,2662,3549
+316,"OYO Rooms","Kashmere Gate",Delhi,0,25,1462,1949
+317,"OYO Premium","Laxmi Nagar",Delhi,0,25,1912,2549
+318,"OYO Rooms","Saraswati Marg, Karol Bagh",Delhi,0,25,787,1049
+319,"OYO Rooms",Paharganj,Delhi,0,25,1124,1499
+320,"OYO Premium","Shivalik Road",Delhi,0,25,2662,3549
+321,"OYO Homes","Kailash Colony",Delhi,0,25,1574,2099
+322,"OYO Rooms","New Delhi",Delhi,0,25,1724,2299
+323,"OYO Premium","Bhama Shah Marg",Delhi,0,0,3549,0
+324,"OYO Rooms","Jai Singh Road",Delhi,0,25,2249,2999
+325,"OYO Rooms","Safdarjung Enclave",Delhi,0,25,2737,3649
+326,"OYO Premium","Connaught Place",Delhi,0,25,1949,2599
+327,"OYO Rooms",Safdarjung,Delhi,0,25,1199,1599
+328,"OYO Rooms","Karol Bagh",Delhi,0,25,1462,1949
+329,"OYO Rooms","South Extension-ll",Delhi,0,25,1724,2299
+330,"OYO Rooms",Pitampura,Delhi,0,25,1687,2249
