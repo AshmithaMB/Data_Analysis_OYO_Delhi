@@ -1,0 +1,55 @@
+# creating a database
+
+CREATE DATABASE mysql_project;
+USE mysql_project;
+
+# importing and viewing the dataset
+
+SELECT * FROM oyod;
+
+# renaming the unknown column
+
+ALTER TABLE oyod
+RENAME COLUMN MyUnknownColumn TO SNO;
+
+# adding a new column 'availability' and setting 1 if the properdity is available, if not 0 (sold out)
+
+ALTER TABLE oyod ADD AVAILABILITY INT;
+UPDATE oyod SET AVAILABILITY = IF(STATUS = 'AVAILABLE', 1, 0);
+
+# dropping 'status' column
+
+ALTER TABLE oyod
+DROP STATUS;
+
+# removing special/ unwanted characters from the values
+
+SELECT SNO, `HOTEL NAME`, LOCALITY, REGION, AVAILABILITY,
+CAST(REPLACE(`% DISCOUNT`, "% OFF", "") AS UNSIGNED) AS `DISCOUNT`,
+CAST(REPLACE(`PRICE AFTER DISCOUNT`, "â‚¹ ", "") AS UNSIGNED) AS `DISCOUNTED RATE`,
+CAST(REPLACE(`OLD PRICE`, "â‚¹ ", "") AS UNSIGNED) AS `BEFORE DISCOUNT`
+FROM oyod;
+
+# export the result and save as ( table 1 )
+
+# import table 1 and remove the default locations listed in the `HOTEL NAMES` 
+
+SELECT SNO, SUBSTRING(`HOTEL NAME`, 1, 13) AS HOTEL, LOCALITY, REGION, 
+AVAILABILITY, DISCOUNT, `DISCOUNTED RATE`, `BEFORE DISCOUNT`
+FROM oyopart11;
+
+# export the result table and save as ( table 2 )
+
+# remove numeric values from the 
+
+
+
+
+
+
+
+
+
+
+
+
