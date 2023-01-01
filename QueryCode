@@ -213,7 +213,19 @@ ORDER BY (AVG(`BEFORE DISCOUNT`)) DESC;
 # QUERY 21
 # Which localities have almost all the properties soldout?
 
-SELECT SUM(AVAILABILITY) = 0, LOCALITY, HOTEL
-FROM OYOPART111;
+SELECT  LOCALITY, HOTEL
+FROM OYOPART111
+GROUP BY AVAILABILITY = 0;
 
-#	Pocket-2, Jasola, Delhi, OYO Premium, has all its OYO hotels properties sold out
+#	Pocket-2, Jasola, Delhi, OYO Premium, B Block, Safdarjung Enclave & 
+# OYO Flagship have most of its OYO hotels properties sold out
+
+
+# QUERY 22
+# How many are sold out out of 331 different properties?
+
+SELECT COUNT(AVAILABILITY)
+FROM oyopart111
+WHERE AVAILABILITY = 0;
+
+# 226 are sold out out of 331
