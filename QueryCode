@@ -201,4 +201,19 @@ GROUP BY HOTEL;
 # Lowest price - OYO Rooms - 749
 
 # QUERY 20
-# 
+# What is the average price before discount for the sold out properties?
+# to two decimal places
+
+SELECT ROUND(AVG(`BEFORE DISCOUNT`),2), HOTEL
+FROM OYOPART111
+WHERE AVAILABILITY = 0
+GROUP BY HOTEL
+ORDER BY (AVG(`BEFORE DISCOUNT`)) DESC;
+
+# QUERY 21
+# Which localities have almost all the properties soldout?
+
+SELECT SUM(AVAILABILITY) = 0, LOCALITY, HOTEL
+FROM OYOPART111;
+
+#	Pocket-2, Jasola, Delhi, OYO Premium, has all its OYO hotels properties sold out
