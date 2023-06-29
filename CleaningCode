@@ -38,7 +38,6 @@ SELECT SNO, SUBSTRING(`HOTEL NAME`, 1, 13) AS HOTEL, LOCALITY, REGION,
 AVAILABILITY, DISCOUNT, `DISCOUNTED RATE`, `BEFORE DISCOUNT`
 FROM oyopart11;
 
-# export the result table and save as ( table 2 )
 
 # remove numeric values from the hotel column
 
