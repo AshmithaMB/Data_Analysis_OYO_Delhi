@@ -1,52 +1,39 @@
 # creating a database
-
 CREATE DATABASE mysql_project;
 USE mysql_project;
-
-# importing and viewing the dataset
-
-SELECT * FROM oyod;
-
-# renaming the unknown column
-
-ALTER TABLE oyod
+select * from oyorooms;
+ALTER TABLE oyorooms
 RENAME COLUMN MyUnknownColumn TO SNO;
+select * from oyorooms;
 
 # adding a new column 'availability' and setting 1 if the properdity is available, if not 0 (sold out)
-
-ALTER TABLE oyod ADD AVAILABILITY INT;
-UPDATE oyod SET AVAILABILITY = IF(STATUS = 'AVAILABLE', 1, 0);
+ALTER TABLE oyorooms ADD AVAILABILITY INT;
+UPDATE oyorooms SET AVAILABILITY = IF(STATUS = 'AVAILABLE', 1, 0);
 
 # dropping 'status' column
-
-ALTER TABLE oyod
+ALTER TABLE oyorooms
 DROP STATUS;
 
-# removing special/ unwanted characters from the values
+select * from oyorooms;
 
+# removing special/ unwanted characters from the values
 SELECT SNO, `HOTEL NAME`, LOCALITY, REGION, AVAILABILITY,
 CAST(REPLACE(`% DISCOUNT`, "% OFF", "") AS UNSIGNED) AS `DISCOUNT`,
 CAST(REPLACE(`PRICE AFTER DISCOUNT`, "â‚¹ ", "") AS UNSIGNED) AS `DISCOUNTED RATE`,
 CAST(REPLACE(`OLD PRICE`, "â‚¹ ", "") AS UNSIGNED) AS `BEFORE DISCOUNT`
-FROM oyod;
+FROM oyorooms;
 
-# export the result and save as ( table 1 )
-
-# import table 1 and remove the default locations listed in the `HOTEL NAMES` 
+# export the result and save as ( oyorooms2 )
+# import table 1 and remove the default locations listed in the `HOTEL NAMES`
 
 SELECT SNO, SUBSTRING(`HOTEL NAME`, 1, 13) AS HOTEL, LOCALITY, REGION, 
 AVAILABILITY, DISCOUNT, `DISCOUNTED RATE`, `BEFORE DISCOUNT`
-FROM oyopart11;
+FROM oyorooms2;
 
-
-# remove numeric values from the hotel column
-
-UPDATE oyopart111 SET HOTEL = TRIM(REGEX_REPLACE(HOTEL, '[0-9]+', ''));
-
-SELECT 
-    *
-FROM
-    oyopart111;
+UPDATE oyorooms2
+SET `HOTEL`= REGEXP_REPLACE(`HOTEL`, '[0-9]+', '')
+WHERE `HOTEL`REGEXP '[0-9]+';
+SELECT * FROM oyorooms2;
 
 # CLEANING COMPLETE
 
